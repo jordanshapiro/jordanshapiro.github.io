@@ -49,10 +49,14 @@ body{
 	display: inline-block;
 }
 
-#topnav a{
+#topnav a {
 	text-decoration: none;
 	color: white;
 	font-weight: 200;
+}
+
+#topnav a:hover {
+	color: #00FFCF;
 }
 
 #nametag p{
@@ -130,3 +134,8 @@ li span {
 	font-weight: 400;
 	color: #F0F080; 
 }
+
+p.gform {
+	text-align: center;
+}
+
