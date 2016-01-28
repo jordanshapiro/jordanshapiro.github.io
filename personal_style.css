@@ -23,6 +23,7 @@ body{
 	background-color: #202020;
 	position: fixed;
 	z-index: 1;
+	/*border: 1px solid purple;*/
 }
 
 #topnav div {
@@ -34,7 +35,7 @@ body{
 	/*border: 1px solid red;*/
 }
 
-#topnav p {
+#topnav p{
 	margin: 5px -5px 5px 0px;
 	padding: 0px 10px 0px 10px;
 	/*border: 1px solid blue;*/
