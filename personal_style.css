@@ -148,6 +148,9 @@ p.gform {
 .news li {
 	background-color: gray;
 	color: white;
+
+	list-style-type: none;
+	margin: 5px 20px 5px 20px;
 }
 
 .news li img {
