@@ -115,7 +115,7 @@ a {
 	color: #00FFCF;
 }
 
-body>ul>li {
+body > ul > li {
 	margin: 10px 50px 10px 40px;
 	font-size: 16px;
 	color: #00FFCF;
@@ -144,3 +144,19 @@ p.gform {
 	text-align: center;
 }
 
+/* News page article formatting */
+.news li {
+	background-color: gray;
+	color: white;
+}
+
+.news li img {
+	width: 100px;
+	height: 100px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.news li a {
+
+}
