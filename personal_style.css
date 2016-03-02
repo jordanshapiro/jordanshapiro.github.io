@@ -146,11 +146,13 @@ p.gform {
 
 /* News page article formatting */
 .news li {
-	background-color: gray;
+	background-color: #151515;
 	color: white;
 
 	list-style-type: none;
 	margin: 5px 20px 5px 20px;
+
+	height: 100px;
 }
 
 .news li img {
@@ -158,8 +160,19 @@ p.gform {
 	height: 100px;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+	float: left;
 }
 
-.news li a {
+.news li .title{
+	padding: 5pt 0pt 0pt 80pt;
+	font-size: 14pt;
+	line-height: 15pt;
+	margin-bottom: 0pt;
+}
 
+.news li .source{
+	margin-top: 0pt;
+	padding: 0pt 0pt 0pt 80pt;
+	font-size: 10pt;
+	/*border: 1pt solid green;*/
 }
