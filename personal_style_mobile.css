@@ -38,7 +38,6 @@ body{
 #topnav p{
 	margin: 5px -5px 5px 0px;
 	padding: 0px 10px 0px 10px;
-	/*border: 1px solid blue;*/
 
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 200;
@@ -104,8 +103,8 @@ p {
 	margin-top: 0pt;
 	padding: 0pt 40pt 0pt 40pt;
 /*	border: 1pt solid blue;*/
-	line-height: 34pt;
-	font-size: 26pt;
+	line-height: 38pt;
+	font-size: 30pt;
 	color: white;
 	text-align: justify;
 }
