@@ -153,6 +153,13 @@ p.gform {
 	margin: 5px 50px 5px 20px;
 
 	height: 100px;
+
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+.news li:hover {
+	background-color: #00FFCF;
 }
 
 .news li img {
@@ -166,14 +173,6 @@ p.gform {
 	font-size: 14pt;
 	line-height: 15pt;
 	margin-bottom: 0pt;
-	color: white;
-
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-}
-
-.news li .title:hover {
-	color: #00FFCF;
 }
 
 .news li .source{
