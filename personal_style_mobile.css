@@ -153,16 +153,6 @@ p.gform {
 	margin: 5px 50px 5px 20px;
 
 	height: 100px;
-
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-}
-
-.news li:hover {
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
 }
 
 .news li img {
@@ -177,6 +167,16 @@ p.gform {
 	line-height: 15pt;
 	margin-bottom: 0pt;
 	color: #00FFCF;
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+.news li .title:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
 .news li .source{
