@@ -54,6 +54,9 @@ body{
 	text-decoration: none;
 	color: white;
 	font-weight: 200;
+
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #topnav a:hover {
@@ -142,6 +145,13 @@ li span {
 
 p.gform {
 	text-align: center;
+}
+
+/* Scroll-down page divs */
+body div {
+	height: 360px;
+	/*border: 1px white solid;
+	background-color: black;*/
 }
 
 /* News page article formatting */
