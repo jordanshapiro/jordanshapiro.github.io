@@ -210,6 +210,13 @@ p.gform {
 	border-radius: 8px;
 	border: 3px solid #00FFCF;
 
+	-webkit-transition-duration: .75s;
+	transition-duration: .75s;
+
+}
+
+.port_menu a > div:hover {
+	background-color: #00FFCF;
 }
 
 .port_menu a > div > p {
