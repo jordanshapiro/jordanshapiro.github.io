@@ -18,7 +18,7 @@ body{
 	padding: 0px;
 	top: 0;
 	left: 0;
-	height: 40px;
+	height: 54px;
 	width: 100%;
 	background-color: #202020;
 	position: fixed;
@@ -28,7 +28,7 @@ body{
 
 #topnav div {
 	display: inline-block;
-	height: 40px;
+	height: 54px;
 	margin: 0px;
 	padding: 0px;
 	margin-left: 0px;
