@@ -54,11 +54,11 @@ body{
 	display: inline-block;
 }
 
-/*#topnav a {
+#topnav a {
 	text-decoration: none;
-	color: #B0B0B0;
+	color: white;
 	font-weight: 100;
-}*/
+}
 
 #topnav a:hover {
 	color: white;
