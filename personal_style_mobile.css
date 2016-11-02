@@ -24,7 +24,7 @@ body{
 	left: 0;
 	height: 40px;
 	width: 100%;
-	background-color: #202020;
+/*	background-color: #202020;*/
 	position: fixed;
 	z-index: 3;
 	/*border: 1px solid purple;*/
@@ -51,7 +51,6 @@ body{
 	letter-spacing: 1px;
 	color: white;
 
-	border-right: 1pt solid white;
 	display: inline-block;
 }
 
@@ -79,19 +78,22 @@ body{
 /* Page text style definitions */
 
 h1 {
-	margin-top: 40pt;
+	margin-top: 30pt;
 	margin-bottom: 20pt;
 
 	/* Font Formatting */
 	font-family: "Century Gothic", sans-serif;
 	font-size: 70pt;
 	font-weight: 100;
-	color: black;
+	color: white;
 
 	/* Positioning */
-	clear both;
+	position: absolute;
+	left: 0;
+	right: 0;
 
-	/*border: 1pt solid green;*/
+
+/*	border: 1pt solid green;*/
 
 	text-align: center;
 }
