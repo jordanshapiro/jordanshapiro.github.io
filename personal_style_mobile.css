@@ -54,14 +54,11 @@ body{
 	display: inline-block;
 }
 
-#topnav a {
+/*#topnav a {
 	text-decoration: none;
 	color: #B0B0B0;
 	font-weight: 100;
-
-	-webkit-transition-duration: 1s;
-	transition-duration: 1s;
-}
+}*/
 
 #topnav a:hover {
 	color: white;
