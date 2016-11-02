@@ -5,14 +5,14 @@
 * {
 	/*border: 1px dotted white;*/
 	z-index: 2;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Century Gothic", sans-serif;
 	font-weight: 100;
 }
 
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: #202020;
+	background-color: white;
 }
 
 /* Top Navigation Bar Definition */
@@ -44,8 +44,8 @@ body{
 	padding: 0px 10px 0px 10px;
 	/*border: 1px solid blue;*/
 
-	font-family: "Helvetica Neue", sans-serif;
-	font-weight: 200;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 100;
 	font-size: 16px;
 	letter-spacing: 1px;
 	color: white;
@@ -56,15 +56,15 @@ body{
 
 #topnav a {
 	text-decoration: none;
-	color: white;
-	font-weight: 200;
+	color: #B0B0B0;
+	font-weight: 100;
 
 	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
 }
 
 #topnav a:hover {
-	color: #00FFCF;
+	color: white;
 }
 
 #nametag p {
@@ -75,10 +75,10 @@ body{
 	/*border: 3px solid green;*/
 }
 
-#topnav p span {
-	font-size: 20px;
-	font-weight: 200;
-}
+/*#topnav p span {
+	font-size: 16px;
+	font-weight: 100;
+}*/
 
 /* Homepage Specifics */
 #headshot{
@@ -94,10 +94,10 @@ h1 {
 	margin-bottom: 20pt;
 
 	/* Font Formatting */
-	font-family: "Helvetica Neue", sans-serif;
-	font-size: 100pt;
+	font-family: "Century Gothic", sans-serif;
+	font-size: 70pt;
 	font-weight: 100;
-	color: #00FFCF;
+	color: black;
 
 	/* Positioning */
 	clear both;
@@ -109,43 +109,49 @@ h1 {
 
 p {
 	margin-top: 0pt;
-	padding: 0pt 40pt 0pt 40pt;
+	padding: 0pt 100pt 0pt 100pt;
 /*	border: 1pt solid blue;*/
-	line-height: 24pt;
-	font-size: 16pt;
-	color: white;
-	text-align: justify;
+	line-height: 20pt;
+	font-size: 12pt;
+	color: #808080;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+
 }
 
 a {
 	text-decoration: none;
-	color: #00FFCF;
+	font-size: 12pt;
+	color: black;
 }
 
 body > ul > li {
-	margin: 10px 50px 10px 40px;
+	margin: 10px 110px 10px 100px;
 	font-size: 16px;
-	color: #00FFCF;
+	color: #808080;
 
 	list-style-type: none;
 }
 
 li{
-	margin: 2px 50px 2px 50px;
+	margin: 2px 110px 2px 110px;
 	font-size: 16px;
-	color: white;
+	color: #808080;
 
 	list-style-type: circle;
 }
 
 li span {
 	font-weight: 400;
-	color: #F0F080; 
+	color: black; 
 }
 
-#headshot {
+/*#headshot {
 	text-align: center;
-}
+}*/
 
 p.gform {
 	text-align: center;
@@ -258,11 +264,12 @@ p.gform {
 
 /* News page article formatting */
 .news li {
-	background-color: #151515;
+	background-color: #150040; /*#808080;*/
 	color: white;
+	border: 1px solid #808080;
 
 	list-style-type: none;
-	margin: 5px 50px 5px 20px;
+	margin: 5px 100px 5px 100px;
 
 	height: 100px;
 
@@ -284,18 +291,21 @@ p.gform {
 }
 
 .news li .title{
-	padding: 5pt 0pt 0pt 80pt;
+	padding: 20pt 0pt 0pt 85pt;
 	font-size: 14pt;
 	line-height: 15pt;
 	margin-bottom: 0pt;
-	color: #00FFCF;
+	color: white;
 	letter-spacing: 1px;
+	text-align: left;
 }
 
 .news li .source{
 	margin-top: 0pt;
-	padding: 0pt 0pt 0pt 80pt;
+	padding: 0pt 0pt 0pt 85pt;
 	font-size: 10pt;
+	color: white;
+	text-align: left;
 }
 
 
