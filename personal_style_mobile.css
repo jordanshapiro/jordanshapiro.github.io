@@ -100,7 +100,7 @@ p {
 	padding: 0pt 100pt 0pt 100pt;
 /*	border: 1pt solid blue;*/
 	line-height: 20pt;
-	font-size: 12pt;
+	font-size: 18pt;
 	color: #808080;
 	text-align: center;
 }
@@ -112,7 +112,6 @@ img {
 
 a {
 	text-decoration: none;
-	font-size: 12pt;
 	color: black;
 }
 
