@@ -305,6 +305,17 @@ p.gform {
 	color: #202020;
 }
 
+/* Portfolio Photos formatting */
+.portfolio_vert_pic > img{
+	width: 400px;
+	height: 600px;
+}
+
+.portfolio_horiz_pic > img{
+	width: 900px;
+	height: 600px;
+}
+
 /* News page article formatting */
 .news li {
 	background-color: #150040; /*#808080;*/
