@@ -247,6 +247,15 @@ p.gform {
 	line-height: 17px;
 	font-weight: 900;
 	color: #202020;
+
+
+}/* Portfolio Photos formatting */
+.portfolio_vert_pic > img{
+	width: 90%
+}
+
+.portfolio_horiz_pic > img{
+	width: 90%
 }
 
 /* News page article formatting */
