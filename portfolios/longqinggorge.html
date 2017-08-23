@@ -7,6 +7,23 @@
 		<link rel="stylesheet" href="../personal_style_mobile.css" type="text/css" media="only screen and (max-device-width: 480px)" />
 		<title>Jordan Shapiro</title>
 		<link rel="icon" type="image/png" href="../jordan_headshot.png" sizes="16x16">
+
+		<script language = "Javascript1.2">
+
+			message = "Photos belong to Jordan Shapiro. Please contact me for use!";
+			 
+			function NoRightClick(b) {
+			   if(((navigator.appName=="Microsoft Internet Explorer")&&(event.button > 1))
+			   ||((navigator.appName=="Netscape")&&(b.which > 1))){
+			   alert(message);
+			   return false;
+			   }
+			}
+
+			document.onmousedown = NoRightClick;
+			
+		</script>
+
 	</head>
 	
 	<body>
