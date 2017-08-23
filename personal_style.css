@@ -120,6 +120,11 @@ p {
 }
 
 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.toppic{
 	width: 100%;
 }
 
@@ -306,7 +311,7 @@ p.gform {
 }
 
 /* Portfolio Photos formatting */
-.portfolio_vert_pic > img{
+/*.portfolio_vert_pic > img{
 	width: 400px;
 	height: 600px;
 }
@@ -314,7 +319,7 @@ p.gform {
 .portfolio_horiz_pic > img{
 	width: 900px;
 	height: 600px;
-}
+}*/
 
 /* News page article formatting */
 .news li {
